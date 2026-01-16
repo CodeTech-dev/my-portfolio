@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+@theme {
+  --color-primary: #14aab8;
+  --color-background-light: #f0f1f5;
+  --color-background-dark: #1a1d23;
+  --color-surface-dark: #23272f;
+  --color-surface-darker: #15171c;
+
+
+  --font-display: "Space Grotesk", sans-serif;
+  --font-body: "Noto Sans", sans-serif;
+
+
+  --radius-lg: 0.5rem;
+  --radius-xl: 0.75rem;
+
+
+  --animate-pulse-slow: pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #1a1d23;
+}
+::-webkit-scrollbar-thumb {
+  background: #2d3748;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #14aab8;
+}
+
+/* Grid background pattern */
+.bg-grid-pattern {
+  background-image: linear-gradient(to right, #ffffff05 1px, transparent 1px),
+    linear-gradient(to bottom, #ffffff05 1px, transparent 1px);
+  background-size: 40px 40px;
+}
+
+/* Glass nav effect */
+.glass-nav {
+  background: rgba(26, 29, 35, 0.8);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+/* Text glow effect */
+.text-glow {
+  text-shadow: 0 0 20px rgba(20, 170, 184, 0.3);
+}
