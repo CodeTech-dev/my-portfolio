@@ -3,7 +3,7 @@ import { useState } from 'react'
 
 export default function Navbar() {
 	const [open, setOpen] = useState(false)
-	const links = [['Work', '#work'], ['About', '#about'], ['Stack', '#stack']]
+	const links = [['Stack', '#stack'], ['Work', '#work'], ['About', '#about']]
 
 	return (
 		<header className="navbar">
