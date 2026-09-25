@@ -6,11 +6,11 @@ export default function Hero() {
 			<div className="container hero-layout">
 				<div className="hero-copy">
 					{/* <div className="availability"><span className="pulse-dot" /> Available for work</div> */}
-					<h1>Building Solutions that<br /><span>solve problems</span><br />with precision.</h1>
+					<h1>Building Products that<br /><span>solve problems.</span></h1>
 					<p className="hero-description">A Software developer specializing in modern web technologies with the integration of AI/ML capabilities.</p>
 					<div className="hero-actions">
 						<a className="button button-primary" href="#work">View Projects <ArrowRight size={17} /></a>
-						<a className="button button-secondary" href="/resume.pdf"><Download size={16} /> Resume</a>
+						<a className="button button-secondary" href="/resume.pdf" download="Agbadaola-Gideon-Resume.pdf"><Download size={16} /> Resume</a>
 					</div>
 				</div>
 				<div className="code-window" aria-label="Developer configuration code example">

@@ -8,9 +8,9 @@ export default function Navbar() {
 	return (
 		<header className="navbar">
 			<div className="container nav-inner">
-				<a className="brand" href="#top" aria-label="Dev Portfolio home">
+				<a className="brand" href="#top" aria-label="Gideon Portfolio home">
 					<span className="brand-mark"><Terminal size={17} /></span>
-					<span>Dev<span className="accent">.Portfolio</span></span>
+					<span>Gideon<span className="accent">.Portfolio</span></span>
 				</a>
 				<nav className={open ? 'nav-links nav-open' : 'nav-links'} aria-label="Main navigation">
 					{links.map(([label, href]) => <a key={href} href={href} onClick={() => setOpen(false)}>{label}</a>)}

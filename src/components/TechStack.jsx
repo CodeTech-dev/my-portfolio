@@ -1,10 +1,10 @@
-import { Braces, Cloud, Database, Layers3 } from 'lucide-react'
+import { BrainCircuit, Braces, Database, Layers3 } from 'lucide-react'
 
 const stack = [
-  ['Frontend', 'React & Next.js', Layers3],
-  ['Backend', 'Node & Express', Braces],
-  ['Database', 'PostgreSQL & Redis', Database],
-  ['AI/ML', 'TensorFlow & PyTorch', Cloud],
+  ['Frontend', 'React | Next.js', Layers3],
+  ['Backend', 'Express | Django | FastAPI', Braces],
+  ['Database', 'PostgreSQL | SQLite | MongoDB', Database],
+  ['AI/ML', 'Scikit-learn | TensorFlow & PyTorch', BrainCircuit],
 ]
 
 export default function TechStack() {
