@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import Modal from './Modal'
-import { sendContactEmail } from '../lib/emailjs'
+import { sendContactEmail } from '../lib/contact'
 
 const TO_EMAIL = 'mrgideontech@gmail.com' 
 
@@ -24,7 +24,6 @@ export default function ContactModal({ isOpen, onClose, senderEmail }) {
     try {
       await sendContactEmail({
         fromEmail: senderEmail,
-        toEmail: TO_EMAIL,
         subject,
         message,
       })
