@@ -6,7 +6,7 @@ export const projects = [
     description: 'High-performance storefront with headless CMS integration and real-time inventory management.',
     image: '/projects/Dashboard.png',
     visual: 'commerce',
-    technologies: ['Next.js', 'Stripe'],
+    technologies: ['React.js', 'FastAPI', 'ML'],
     liveUrl: '#',
     githubUrl: '#',
   },
