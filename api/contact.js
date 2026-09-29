@@ -20,7 +20,7 @@ export default async function handler(req, res) {
 
   try {
     const { data, error } = await resend.emails.send({
-      from: 'Portfolio Contact <onboarding@resend.dev>', // swap once your domain is verified
+      from: 'Portfolio Contact <hello@mrgiddyola.works>', // swap once your domain is verified
       to: process.env.CONTACT_TO_EMAIL,
       replyTo: fromEmail,
       subject: `[Portfolio] ${subject}`,
