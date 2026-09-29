@@ -10,7 +10,7 @@ export default function Navbar() {
 			<div className="container nav-inner">
 				<a className="brand" href="#top" aria-label="Gideon Portfolio home">
 					<span className="brand-mark"><Terminal size={17} /></span>
-					<span>GiddyOla<span className="accent">.</span></span>
+					<span>MrGiddyola<span className="accent">.</span></span>
 				</a>
 				<nav className={open ? 'nav-links nav-open' : 'nav-links'} aria-label="Main navigation">
 					{links.map(([label, href]) => <a key={href} href={href} onClick={() => setOpen(false)}>{label}</a>)}
